@@ -27,6 +27,13 @@ GPU：核显 Intel UHD 630
 WiFi/蓝牙：免驱BCM94360 蓝牙4.0
 
 
+## 图片
+
+![桌面](https://user-images.githubusercontent.com/13514929/119252879-2227c700-bbe1-11eb-8b8b-acbbcf35c77d.png)
+![硬件信息](https://user-images.githubusercontent.com/13514929/119252900-35d32d80-bbe1-11eb-9530-8a7269dd520f.png)
+![硬件加速](https://user-images.githubusercontent.com/13514929/119252894-323fa680-bbe1-11eb-98fd-280b60b3f4fb.png)
+![硬件信息Geek](https://user-images.githubusercontent.com/13514929/119252936-5f8c5480-bbe1-11eb-91df-203834925137.png)
+
 
 ## 检查清单
 

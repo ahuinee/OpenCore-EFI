@@ -10,7 +10,7 @@ OpenCore 0.6.9 , MacOS Big Sur 11.3.1
 
 #### ⚠️注意 ⚠️注意 ⚠️注意 
 
-下载后请自行修改 **序列号 **和 **ROM** 防止重复，修改方法 [修改序列号教程](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo)
+下载后请自行修改 **序列号** 和 **ROM** 防止重复，修改方法 [修改序列号教程](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo)
 
 修改后去 [OpenCore健全性检查器](https://opencore.slowgeek.com/) 验证一下
 

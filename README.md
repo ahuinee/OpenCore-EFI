@@ -1,20 +1,28 @@
-# OpenCore EFI B460M iGPU 黑苹果 Hackintosh
+# MSI B460M EFI iGPU 黑苹果 Hackintosh
 
 OpenCore 0.6.9 , MacOS Big Sur 11.3.1
 
-分享一个黑苹果OpenCore EFI文件。
+支持：MSI B460M + 所有10代核显CPU
 
 日期：2021/05/23
 
 
 
+#### ⚠️注意 ⚠️注意 ⚠️注意 
+
+下载后请自行修改 **序列号 **和 **ROM** 防止重复，修改方法 [修改序列号教程](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo)
+
+修改后去 [OpenCore健全性检查器](https://opencore.slowgeek.com/) 验证一下
+
+
+
 ## 硬件配置
 
-主板：MSI B460M MORTAR 微星B460M迫击炮 [官网产品规格](https://cn.msi.com/Motherboard/MAG-B460M-MORTAR/Specification)
+主板：微星B460M迫击炮 
 
-CPU：Intel i5 10500 [官网产品规格](https://ark.intel.com/content/www/us/en/ark/products/199277/intel-core-i5-10500-processor-12m-cache-up-to-4-50-ghz.html)
+CPU：英特尔 i5 10500
 
-GPU：核显 Intel UHD 630 
+GPU：核显 UHD 630 
 
 网卡：板载网卡 Realtek® RTL8125B 2.5G LAN
 
@@ -24,7 +32,7 @@ GPU：核显 Intel UHD 630
 
 内存：芝奇 32G （G.SKILL 8GB DDR4 3200 * 4）
 
-WiFi/蓝牙：免驱BCM94360 蓝牙4.0
+WiFi/蓝牙：免驱BCM94360 / 蓝牙4.0
 
 
 ## 图片
@@ -37,7 +45,7 @@ WiFi/蓝牙：免驱BCM94360 蓝牙4.0
 
 ## 检查清单
 
-- [x] 最大分辨率显示 34英寸3440×1440
+- [x] 最大分辨率显示 （34英寸3440×1440）
 - [x] 硬件解码
 - [x] WiFi
 - [x] 蓝牙

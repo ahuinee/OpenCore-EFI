@@ -1,18 +1,16 @@
 # MSI B460M EFI iGPU 黑苹果 Hackintosh
 
-OpenCore 0.6.9 , MacOS Big Sur 11.3.1
+OpenCore 0.6.9 , MacOS Big Sur 12.0.1
 
 支持：MSI B460M + 所有10代核显CPU
 
-日期：2021/05/23
+日期：2021/12/04
 
 
 
 #### ⚠️注意 ⚠️注意 ⚠️注意 
 
 下载后请自行修改 **序列号** 和 **ROM** 防止重复，修改方法 [修改序列号教程](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo)
-
-修改后去 [OpenCore健全性检查器](https://opencore.slowgeek.com/) 验证一下
 
 
 
@@ -36,11 +34,9 @@ WiFi/蓝牙：免驱BCM94360 / 蓝牙4.0
 
 
 ## 图片
+![桌面](https://user-images.githubusercontent.com/13514929/144720887-692f792f-d0d6-49e8-819d-b087ee2598be.png)
 
-![桌面](https://user-images.githubusercontent.com/13514929/119252879-2227c700-bbe1-11eb-8b8b-acbbcf35c77d.png)
-![硬件信息](https://user-images.githubusercontent.com/13514929/119252900-35d32d80-bbe1-11eb-9530-8a7269dd520f.png)
-![硬件加速](https://user-images.githubusercontent.com/13514929/119252894-323fa680-bbe1-11eb-98fd-280b60b3f4fb.png)
-![硬件信息Geek](https://user-images.githubusercontent.com/13514929/119252936-5f8c5480-bbe1-11eb-91df-203834925137.png)
+
 
 
 ## 检查清单
@@ -61,3 +57,4 @@ WiFi/蓝牙：免驱BCM94360 / 蓝牙4.0
 Geekbench CPU跑分 https://browser.geekbench.com/v5/cpu/8042171
 
 Geekbench GPU跑分 https://browser.geekbench.com/v5/compute/2870286
+

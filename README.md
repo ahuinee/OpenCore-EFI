@@ -15,6 +15,47 @@ OpenCore 0.7.5 , MacOS Monterey 12.0.1
 
 
 
+## 使用方法
+
+#### 极速安装：
+
+1. 准备4G以上U盘并格式化为FAT32格式
+2. 下载文件后解压，将 **EFI** 和 **com.apple.recovery.boot** 文件夹拷贝到U盘根目录
+2. 用python执行macrecovery.py下载对应的MacOS恢复镜像，详见**com.apple.recovery.boot**文件夹下的README.md说明
+2. 重启 - 选择U盘启动 - Recovery xx.xx.x (dmg)
+2. 安装过程，file - 中文，磁盘需要格式为APFS+GUID分区图
+6. 安装完成后，复制U盘EFI文件夹到EFI分区
+   1. 下载MountEFI https://github.com/corpnewt/MountEFI
+   2. 双击 `MountEFI.command` 选择当前磁盘
+   3. 复制U盘EFI文件夹到EFI磁盘
+
+
+#### 更新MacOS系统和OpenCore：
+
+在更新系统前，先查看当前OpenCore版本是否支持需要更新的系统，如果不支持就别更新了。
+
+1. 下载最新EFI文件
+2. 替换EFI分区的EFI文件夹
+   1. 下载MountEFI https://github.com/corpnewt/MountEFI
+   2. 双击 `MountEFI.command` 选择当前磁盘
+   3. 复制EFI文件夹到EFI磁盘
+3. 系统升级：系统偏好设置 - 系统更新 - 安装更新
+
+#### 其他情况：
+
+- 添加Win引导（如果Win引导丢失）
+        1. 通过U盘启动window安装程序
+        2. 在选择语界面，按Shift + F10 运行命令提示符，输入：
+
+
+   ```
+bcdboot C:\Windows /l zh-cn
+   ```
+
+- 设置默认启动系统
+
+  在系统选择界面，按control + 数字
+
 ## 硬件配置
 
 主板：微星B460M迫击炮 

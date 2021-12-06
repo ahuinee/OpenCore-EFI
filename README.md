@@ -1,5 +1,7 @@
 # MSI B460M EFI iGPU 黑苹果 Hackintosh
 > 能帮到别人真的很开心。今天2021/12/04将OpenCore更新到最新版0.7.5，支持最新版MacOS12
+>
+> 增加 <a href="#1">极速安装方法</a> 和  <a href="#2">更新MacOS系统和OpenCore方法</a> 安装和更新的时候就不怕忘记了。
 
 OpenCore 0.7.5 , MacOS Monterey 12.0.1
 
@@ -9,15 +11,19 @@ OpenCore 0.7.5 , MacOS Monterey 12.0.1
 
 
 
-#### ⚠️注意 ⚠️注意 ⚠️注意 
+## Monterey 12.0.1安装成功
 
-下载后请自行修改 **序列号** 和 **ROM** 防止重复，修改方法 [修改序列号教程](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo)
+![桌面](https://user-images.githubusercontent.com/13514929/144720887-692f792f-d0d6-49e8-819d-b087ee2598be.png)
 
 
 
 ## 使用方法
 
-#### 极速安装：
+##### ⚠️ 注意 ⚠️ 注意 ⚠️ 注意 
+
+下载后请自行修改 **序列号** 和 **ROM** 防止重复，修改方法 [修改序列号教程](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo)
+
+#### <a name="1">极速安装</a>：
 
 1. 准备4G以上U盘并格式化为FAT32格式
 2. 下载文件后解压，将 **EFI** 和 **com.apple.recovery.boot** 文件夹拷贝到U盘根目录
@@ -30,7 +36,7 @@ OpenCore 0.7.5 , MacOS Monterey 12.0.1
    3. 复制U盘EFI文件夹到EFI磁盘
 
 
-#### 更新MacOS系统和OpenCore：
+#### <a name="2">更新MacOS系统和OpenCore</a>：
 
 在更新系统前，先查看当前OpenCore版本是否支持需要更新的系统，如果不支持就别更新了。
 
@@ -74,9 +80,6 @@ GPU：核显 UHD 630
 
 WiFi/蓝牙：免驱BCM94360 / 蓝牙4.0
 
-
-## 图片
-![桌面](https://user-images.githubusercontent.com/13514929/144720887-692f792f-d0d6-49e8-819d-b087ee2598be.png)
 
 
 

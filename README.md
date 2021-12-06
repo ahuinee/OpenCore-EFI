@@ -1,7 +1,7 @@
 # MSI B460M EFI iGPU 黑苹果 Hackintosh
 > 能帮到别人真的很开心。今天2021/12/04将OpenCore更新到最新版0.7.5，支持最新版MacOS12
 
-OpenCore 0.7.5 , MacOS Big Sur 12.0.1
+OpenCore 0.7.5 , MacOS Monterey 12.0.1
 
 支持：MSI B460M + 所有10代核显CPU
 

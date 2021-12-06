@@ -50,13 +50,8 @@ OpenCore 0.7.5 , MacOS Monterey 12.0.1
 #### 其他情况：
 
 - 添加Win引导（如果Win引导丢失）
-        1. 通过U盘启动window安装程序
-            
-	    1. 在选择语界面，按Shift + F10 运行命令提示符，输入：
-            
-   	```
-    	bcdboot C:\Windows /l zh-cn
-    	```
+  1. 通过U盘启动window安装程序
+  2. 在选择语界面，按Shift + F10 运行命令提示符，输入：`bcdboot C:\Windows /l zh-cn`
     
 - 设置默认启动系统
 
